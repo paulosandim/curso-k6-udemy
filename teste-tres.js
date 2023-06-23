@@ -11,12 +11,12 @@ export const options = {
 }
 
 export default function() {
-  const BASE_URL = 'http://test.k6.io'
+  const BASE_URL = 'http://test-api.k6.io'
 
-  const USER = 'admin'
-  const pass = '123'
+  const USER = `${Math.random()}@mail.com`
+  const pass = 'user123'
 
-  const res = http.post(`${BASE_URL}/login`, {
+  const res = http.post(`${BASE_URL}/user/registrer`, {
     login: USER,
     password: pass
   })
