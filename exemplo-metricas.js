@@ -1,5 +1,4 @@
 import http from 'k6/http';
-import { check } from 'k6';
 import { Counter } from 'k6/metrics'; // métrica de contador
 import { Gauge } from 'k6/metrics'; // métrica de medição
 import { Rate } from 'k6/metrics'; // métrica de taxas
