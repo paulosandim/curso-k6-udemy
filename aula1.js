@@ -1,5 +1,6 @@
 // inicialização
-import sleep from 'k6';
+import http from 'k6/http';
+import { sleep } from 'k6';
 
 // configuração
 export const options = {
