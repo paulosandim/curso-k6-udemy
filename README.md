@@ -1,4 +1,4 @@
-# Curso K6
+# Teste de Performance com K6
 
 ![k6](https://raw.githubusercontent.com/grafana/k6/master/assets/k6-logo-with-grafana.svg)
 
