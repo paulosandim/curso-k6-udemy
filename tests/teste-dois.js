@@ -16,7 +16,7 @@ export const options = {
 }
 
 const data = new SharedArray('leitura do json', function() {
-  return JSON.parse(open('dados.json')).numeros
+  return JSON.parse(open('./utils/dados.json')).numeros
 })
 
 export default function() {
